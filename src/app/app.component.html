@@ -17,7 +17,7 @@
           <tr>
             <td>{{ todo.task }}</td>
             <td>
-              <p-checkbox [(ngModel)]="todo.completed" [binary]="true" (change)="updateTodo($event, todo)"/>
+              <p-checkbox [(ngModel)]="todo.completed" [binary]="true" (onChange)="updateTodo($event, todo)"/>
             </td>
             <td>
               <p-button icon="pi pi-trash" severity="danger" (click)="deleteTodo(todo.id)"/>

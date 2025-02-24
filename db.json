@@ -1,15 +1,14 @@
 {
-    "todos":  [
-    { 
-        "id": 1, 
-        "task": "first todo",
-        "completed" : false 
+  "todos": [
+    {
+      "id": "8aee",
+      "task": "first",
+      "completed": true
     },
-    { 
-        "id": 2, 
-        "task": "second todo", 
-        "completed": false 
+    {
+      "id": "762a",
+      "task": "second",
+      "completed": true
     }
-]
+  ]
 }
-

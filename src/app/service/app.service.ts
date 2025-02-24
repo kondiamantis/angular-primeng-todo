@@ -19,8 +19,8 @@ export class AppService {
   }
 
   updateTodo(postData: Todo) {
-    return this.http.put(`${this.baseUrl}/todos/$(postData.id)`, postData);
-  }
+    return this.http.put(`${this.baseUrl}/todos/${postData.id}`, postData);
+}
 
   deleteTodo(id: Todo['id']) {
     return this.http.delete(`${this.baseUrl}/todos/${id}`);
