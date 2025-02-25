@@ -54,7 +54,11 @@ export class AppComponent implements OnInit {
   }
 
   deleteTodo(id: Todo['id']) {
-    console.log( id);
+    this.appService.deleteTodo(id).subscribe(
+      response => {
+        this.getList();
+      }
+    )
   }
 
   addTodo() {

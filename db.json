@@ -9,6 +9,11 @@
       "id": "762a",
       "task": "second",
       "completed": true
+    },
+    {
+      "id": "9111",
+      "task": "my new task",
+      "completed": true
     }
   ]
 }
